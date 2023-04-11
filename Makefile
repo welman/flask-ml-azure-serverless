@@ -1,6 +1,9 @@
 setup:
-	python3.6 -m venv ~/.flask-ml-azure
+	#python3.6 -m venv ~/.flask-ml-azure
 	#source ~/.flask-ml-azure/bin/activate
+	#create a new virtual env to solve problem
+	python3.6 -m venv ~/.flask-ml-azure2
+	source ~/.flask-ml-azure2/bin/activate
 	
 install:
 	pip3 install --upgrade pip &&\
